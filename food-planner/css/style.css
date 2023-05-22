@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url("./image/ikea-4048229_960_720.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: #1793b3;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+}
+header a{
+    float: right;
+}
+
+main {
+    margin: 20px auto;
+    width: 600px;
+    text-align: center;
+
+}
+
+main>div>h1 {
+    font-size: 18px;
+}
+
+main>div>p {
+    font-size: 14px
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(75, 72, 72);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgb(85, 84, 84);
+}
+
+.input-food {
+    padding: 5px 10px;
+    outline: none;
+    width: 100%;
+    margin-right: 15px;
+    border: 1px solid ghostwhite;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.input-button {
+    padding: 5px 5px;
+    background-color: #03e9fa;
+    border: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    width: 50px;
+}
+.send-button {
+    margin-top: 25px;
+    background-color: #03e9fa;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    width: 80px;
+    padding: 7px 7px;
+    border: none;
+}
+
+section {
+    margin: 20px 0;
+    background: rgb(75, 72, 72);
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgb(85, 84, 84);
+    padding: 20px;
+}
+
+.food-container {
+    list-style: none;
+    text-align: left;
+}
+
+.food-container .food-item {
+    padding: 5px 10px;
+    font-size: 12px;
+    border: 1px solid rgb(231, 231, 231);
+    margin: 10px 0;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.food-container .food-item:hover {
+    background-color:#c5bebe;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+#no-list {
+    color: rgb(185, 185, 185);
+}
+
+#no-list img {
+    width: 300px;
+    opacity: 1;
+}
+
+#food-list-statistics {
+    font-size: 11px;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(207, 203, 203);
+}
